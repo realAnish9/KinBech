@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012107315987",
+    "project_id": "kinbech-179c4",
+    "storage_bucket": "kinbech-179c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012107315987:android:3b4232745d87fd87b5e8e6",
+        "android_client_info": {
+          "package_name": "com.example.kinbech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012107315987-8258uj2cehrd494f2bss41tgie34pejp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3f6JuZ7fH1vMxK5vQJnHpM7_8DuHi--Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012107315987-8258uj2cehrd494f2bss41tgie34pejp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
