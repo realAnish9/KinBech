@@ -18,7 +18,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-    private Button mloginButton,mregisterButton;
+    private Button mloginButton,mregisterButton,mforgotBtn;
     private EditText mfullName,mEmail,mpassword,mphone;
     private FirebaseAuth mAuth;
     ProgressBar mprogressBar;
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         mpassword=findViewById(R.id.passwordInput);
         mphone=findViewById(R.id.passwordInput);
         mregisterButton=findViewById(R.id.registerButtonMain);
+        mforgotBtn=findViewById(R.id.resetPasswordBtn);
 
         mAuth=FirebaseAuth.getInstance();
         mprogressBar=findViewById(R.id.progressBar);
